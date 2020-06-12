@@ -7,8 +7,6 @@ tags:
   - Red Team
 --- 
 
-# Red Teaming Active Directory
-
 ## Introduction
 
 When delivering an advanced penetration test or red team exercise, we want our activities to look like normal actions. Not only we will be stealthy this way, but we will minimize the posssibilities of disrupting normal operations as well. 

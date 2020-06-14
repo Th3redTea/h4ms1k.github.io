@@ -7,7 +7,8 @@ tags:
   - Red Team
 ---
 
-## Introduction  
+## Introduction 
+
 MS SQL Server integrates right out the box with Windows and Active Directory Domains. Consequently, there are trust relationships wich we can leverage from an attacker perspective.  
 
 ## MS SQL Server Fundamentals  

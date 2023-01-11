@@ -135,7 +135,7 @@ When delivering an advanced penetration test or red team exercise, we want our a
       2. Transitive: Trust relationship is extended beyond a two-domain trust to include other trusted domains.  
     - All domains in a forest trust all other domain in the forest.  
     - Trusts can extend outside the forest.  
-    - Domains can allow access to shared resources outside theur boundaries using a trust. Logon and accessing resources in any domain in the forest can be achieved using trusts.  
+    - Domains can allow access to shared resources outside their boundaries using a trust. Logon and accessing resources in any domain in the forest can be achieved using trusts.  
   - Interesting Resources: 
     - [Active Directory Architecture](https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-2000-server/bb727030(v=technet.10))
     - [Windows Server 2012 R2 Inside Out: Active Directory Architecture](https://www.microsoftpressstore.com/articles/article.aspx?p=2217264) 
@@ -213,7 +213,7 @@ Web proxies, internal apps, virtualisation consoles, database servers could use 
 
 LLMNR and NBT-NS resolve hostnames no IP Addresses. When we try to resolve a hostname, firts contacts the DNS and if that failes LLMNR will be reached.  
 
-SMB Relay requires privileged credentials and SMB signing not enforced.  
+SMB Relay requires SMB signing not enforced.  
 
   - [Responder](https://github.com/lgandx/Responder)
   - [Snarf](https://github.com/purpleteam/snarf) **OPSEC SAFE**.  
